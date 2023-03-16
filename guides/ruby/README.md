@@ -1,4 +1,4 @@
-# Ruby
+# Qué es Ruby?
 
 Ruby es un lenguaje muy expresivo, enfocado en la simplicidad y la productividad del programador. Es ideal para principiantes por su sintaxis clara y fácil de entender, pero lo suficiente robusto como para crear aplicaciones que pueden escalar a millones de usuarios.
 
