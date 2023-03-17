@@ -13,9 +13,7 @@ Al igual que [Ruby](https://www.ruby-lang.org/), [Ruby on Rails](http://rubyonra
 * [Bootstrap 4](../bootstrap-4/) - Opcional pero recomendado
 * [Ruby](../ruby/)
 * [HTTP y Sinatra](../http-y-sinatra/) - Opcional pero recomendado
-* [JavaScript I](../javascript-i/)
-* [JavaScript II](../javascript-ii/)
-* [jQuery](../jquery/)
+* [JavaScript](../javascript/)
 
 ## Contenido
 

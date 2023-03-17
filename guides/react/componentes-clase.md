@@ -11,7 +11,7 @@ Un reto interesante (y quiza una de las razones por las que los componentes de c
 * Cómo utilizar `this` correctamente.
 * Para qué se utiliza el método `bind`.
 
-Esto temas los puedes consultar en las guías de la sección [JavaScript II](../javascript-ii/).
+Esto temas los puedes consultar en las guías de la sección [JavaScript](../javascript/avanzado/prototipos.md).
 
 ## Definiendo un componente
 

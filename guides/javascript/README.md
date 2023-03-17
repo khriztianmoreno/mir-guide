@@ -19,5 +19,4 @@ Hemos dividido el contenido de JavaScript en dos secciones. En esta sección vas
 * [Más cadenas de texto](mas-cadenas-de-texto.md)
 * [Funciones](funciones.md)
 * [Objetos literales](objetos-literales.md)
-* [Manipulación de archivos](manipulacion-de-archivos.md)
 

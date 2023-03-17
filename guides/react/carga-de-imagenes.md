@@ -7,7 +7,7 @@ Existen dos formas de cargar imágenes desde nuestra aplicación de React:
 
 En esta guía vamos a ver cómo cargar archivos directamente a [Cloudinary](https://cloudinary.com/) sin necesidad de pasar por el backend.
 
-**Nota:** [Según Cloudinary](https://support.cloudinary.com/hc/en-us/articles/208335975-How-safe-secure-is-it-to-use-unsigned-upload-from-web-browsers-or-mobile-clients), aunque es posible que alguien copie el código y utilice nuestra cuenta para subir imágenes, en la práctica esto no es muy común que ocurra. Si esto es una preocupación sería mejor [cargar la imagen desde el backend](../express-ii/carga-de-imagenes.md) o [generar una firma de autenticación desde el backend](https://cloudinary.com/documentation/upload_images#generating_authentication_signatures). En esta guía vamos a hacer la carga directa.
+**Nota:** [Según Cloudinary](https://support.cloudinary.com/hc/en-us/articles/208335975-How-safe-secure-is-it-to-use-unsigned-upload-from-web-browsers-or-mobile-clients), aunque es posible que alguien copie el código y utilice nuestra cuenta para subir imágenes, en la práctica esto no es muy común que ocurra. Si esto es una preocupación sería mejor [cargar la imagen desde el backend](../nodejs/express/avanzado/carga-de-imagenes.md) o [generar una firma de autenticación desde el backend](https://cloudinary.com/documentation/upload_images#generating_authentication_signatures). En esta guía vamos a hacer la carga directa.
 
 Para continuar necesitas una cuenta en [Cloudinary](https://cloudinary.com/) y obtener los siguientes datos que encontrarás en el Dashboard (una vez ingreses a tu cuenta):
 
@@ -48,7 +48,7 @@ function App() {
     const data = new FormData();
     data.append("file", file);
     data.append("upload_preset", CLOUD_NAME);
-    const response = await fetch(`https://api.cloudinary.com/v1_1/${UPLOAD_PRESET}/upload`, 
+    const response = await fetch(`https://api.cloudinary.com/v1_1/${UPLOAD_PRESET}/upload`,
         { method: "POST", body: data })
     const data = await response.json()
     console.log(data) // reemplazar con un mensaje de éxito o la acción deseada

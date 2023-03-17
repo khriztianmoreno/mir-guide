@@ -12,9 +12,7 @@ Bootstrap es el framework CSS más popular de la actualidad y se utiliza para cr
 
 ## Prerequisitos
 
-* [HTML y CSS](../html-css/README.md) - Especialmente te recomendamos estudiar Flexbox bien antes de empezar con Bootstrap 4.
-
-Aunque no es un prerequisito, te recomendamos empezar con [Bootstrap 3](../bootstrap3/README.md).
+* [HTML y CSS](../html-y-css/README.md) - Especialmente te recomendamos estudiar Flexbox bien antes de empezar con Bootstrap 4.
 
 ## Contenido
 

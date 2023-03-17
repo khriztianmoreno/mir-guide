@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Git y Github
 
-**Nota:** Esta guía está obsoleta. Ahora tenemos una sección completa de **git** que puedes encontrar en [este enlace](/git).
+**Nota:** Esta guía está obsoleta. Ahora tenemos una sección completa de **git** que puedes encontrar en [este enlace](../git/).
 
 **Git** te permite guardar un historial de cambios de tus proyectos y trabajar con otros desarrolladores en un mismo proyecto.
 

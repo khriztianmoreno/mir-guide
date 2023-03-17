@@ -40,7 +40,7 @@ bcrypt.compare("otra-contraseña", hash).then(function(res) {
 
 Para identificar las peticiones debemos guardar el `id` del usuario en la **sesión** cuando este se autentique.
 
-El primer paso es asegurarte que hayas instalado y configurado la librería  [cookie-session](https://github.com/expressjs/cookie-session) como se muestra en el capítulo de [Cookies y sesión de Express I](../express.js/cookies-y-sesion.md).
+El primer paso es asegurarte que hayas instalado y configurado la librería  [cookie-session](https://github.com/expressjs/cookie-session) como se muestra en el capítulo de [Cookies y sesión de Express](../cookies-y-sesion.md).
 
 El siguiente paso es agregar el `id` del usuario a la **sesión**. Por ejemplo, si tu ruta de autenticación es `POST /login` y si estás utilizando [Mongoose](http://mongoosejs.com/):
 
