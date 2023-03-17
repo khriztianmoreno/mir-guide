@@ -23,7 +23,7 @@ Actualmente no se recomienda usar `react-redux` sin `@reduxjs/toolkit`.
 
 Proporciona el soporte automático para muchas dependencias que eran necesario instalar por aparte con redux tradicional, entre ellas encontramos:
 
-- [Redux Dev-tools]()
+- [Redux Dev-tools](https://github.com/reduxjs/redux-devtools)
 - [immer.js](https://www.npmjs.com/package/immer)
 - [redux](https://www.npmjs.com/package/redux)
 - [redux-thunk](https://www.npmjs.com/package/redux-thunk)

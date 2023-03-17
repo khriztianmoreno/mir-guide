@@ -28,8 +28,7 @@ Para cada una de estas clases existen varios algoritmos que debemos conocer y ap
 
 ## Prerequisitos
 
-* [JavaScript I](../javascript-i/)
-* [JavaScript II](../javascript-ii/)
+* [JavaScript](../javascript/)
 
 ## Contenido
 

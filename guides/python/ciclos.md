@@ -33,9 +33,9 @@ for <variable temporal> in <lista>:
 **Nota** cuando usamos código explicativo del tipo `<variable temporal>` nos estamos refiriendo a ["pseudo-código"](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo).
 
 Revisemos cada uno de estos bloques constructores del ciclo `for`:
-* <variable temporal>: puede ser llamada como quiera y no tiene que estar definida con anticipación.
-* <lista>: es la lista sobre la cual queremos iterar
-* <acción>: es la acción que queremos ejecutar sobre cada elemento de la lista, según nuestro anterior ejemplo, sería un `pint()`. Esa es la acción
+* `<variable temporal>`: puede ser llamada como quiera y no tiene que estar definida con anticipación.
+* `<lista>`: es la lista sobre la cual queremos iterar
+* `<acción>`: es la acción que queremos ejecutar sobre cada elemento de la lista, según nuestro anterior ejemplo, sería un `pint()`. Esa es la acción
 
 Volvamos a realizar el mismo ejercicio, pero usando el ciclo `for`
 

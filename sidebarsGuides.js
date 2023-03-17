@@ -78,9 +78,163 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'JavaScript',
+      items: [
+        {
+          type: 'category',
+          label: 'Fundamentos',
+          items: [
+            { id: 'javascript/README', label: 'Introducción', type: 'doc' },
+            'javascript/primeros-pasos',
+            'javascript/tipos-y-operadores',
+            'javascript/variables',
+            'javascript/condicionales',
+            'javascript/ciclos',
+            'javascript/arreglos',
+            'javascript/mas-cadenas-de-texto',
+            'javascript/funciones',
+            'javascript/objetos-literales',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Avanzado',
+          items: [
+            'javascript/avanzado/prototipos',
+            { id: 'javascript/avanzado/librerias-node.js', label: 'Librerías Node.js', type: 'doc' },
+            'javascript/avanzado/es6',
+            'javascript/avanzado/uso-this',
+            'javascript/avanzado/programacion-funcional',
+            'javascript/avanzado/scope-hoisting-closures',
+            'javascript/avanzado/programacion-asincronica',
+            'javascript/avanzado/excepciones',
+            'javascript/avanzado/testing',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Navegador',
+          items: [
+            { id: 'javascript/navegador/README', label: 'Introducción', type: 'doc' },
+            'javascript/navegador/primeros-pasos',
+            'javascript/navegador/manipulando-html',
+            'javascript/navegador/escuchando-eventos',
+            'javascript/navegador/local-storage',
+            'javascript/navegador/history',
+            'javascript/navegador/canvas',
+            'javascript/navegador/notificaciones',
+            'javascript/navegador/video-audio',
+            'javascript/navegador/drag-drop',
+            'javascript/navegador/json',
+            'javascript/navegador/peticiones-http',
+          ]
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'React',
+      items: [
+        {
+          type: 'category',
+          label: 'Fundamentos',
+          items: [
+            { id: 'react/README', label: 'Introducción', type: 'doc' },
+            'react/primeros-pasos',
+            'react/jsx',
+            'react/componentes',
+            'react/mas-sobre-estado',
+            'react/formularios',
+            'react/peticiones-http-con-axios',
+            'react/react-hooks',
+            'react/react-router',
+            'react/estructura-carpetas',
+            'react/context',
+            'react/carga-de-imagenes',
+            'react/react-bootstrap',
+            'react/testing',
+            'react/componentes-clase',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Redux',
+          items: [
+            { id: 'redux/README', label: 'Introducción', type: 'doc' },
+            'redux/primeros-pasos',
+            'redux/action-creators',
+            'redux/react-redux',
+            'redux/middlewares',
+            'redux/redux-thunk',
+            'redux/combinando-reductoras',
+            'redux/redux-tool-kit',
+            'redux/testing',
+          ]
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Node.js',
+      items: [
+        'nodejs/README',
+        'nodejs/instalacion',
+        'nodejs/manipulacion-de-archivos',
+        {
+          type: 'category',
+          label: 'Express.js',
+          items: [
+            {
+              type: 'category',
+              label: 'Fundamentos',
+              items: [
+                { id: 'nodejs/express/README', label: 'Introducción', type: 'doc' },
+                'nodejs/express/primeros-pasos',
+                'nodejs/express/el-protocolo-http',
+                'nodejs/express/rutas',
+                'nodejs/express/vistas',
+                'nodejs/express/middlewares-y-manejo-de-errores',
+                'nodejs/express/formularios',
+                'nodejs/express/cookies-y-sesion',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Avanzado',
+              items: [
+                'nodejs/express/avanzado/web-api',
+                'nodejs/express/avanzado/autenticacion',
+                'nodejs/express/avanzado/envio-de-correos',
+                'nodejs/express/avanzado/carga-de-imagenes',
+                'nodejs/express/avanzado/mongoose',
+                'nodejs/express/avanzado/testing',
+                'nodejs/express/avanzado/deployment',
+                'nodejs/express/avanzado/web-sockets',
+              ]
+            },
+          ]
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Algoritmos',
+      items: [
+        { id: 'algoritmos/README', label: 'Introducción', type: 'doc' },
+        'algoritmos/describiendo-algoritmos',
+        'algoritmos/complejidad',
+        'algoritmos/estructuras-de-datos',
+        'algoritmos/recursion',
+        'algoritmos/ordenamiento',
+        'algoritmos/busqueda',
+        'algoritmos/programacion-dinamica',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Bootstrap 4',
       items: [
-        'bootstrap-4/README',
+        { id: 'bootstrap-4/README', label: 'Introducción', type: 'doc'},
         'bootstrap-4/primeros-pasos',
         'bootstrap-4/elementos-basicos-de-html',
         'bootstrap-4/componentes',
@@ -116,7 +270,7 @@ const sidebars = {
           type: 'category',
           label: 'Programación Orientada a Objetos',
           items: [
-            'programacion-orientada-a-objetos-en-ruby/README',
+            { id: 'programacion-orientada-a-objetos-en-ruby/README', label: 'Introducción', type: 'doc'},
             'programacion-orientada-a-objetos-en-ruby/clases-y-objetos',
             'programacion-orientada-a-objetos-en-ruby/metodos-y-atributos-de-clase',
             'programacion-orientada-a-objetos-en-ruby/herencia',
@@ -128,7 +282,7 @@ const sidebars = {
           type: 'category',
           label: 'HTTP y Sinatra',
           items: [
-            'http-y-sinatra/README',
+            { id: 'http-y-sinatra/README', label: 'Introducción', type: 'doc'},
             'http-y-sinatra/primeros-pasos-con-sinatra',
             'http-y-sinatra/el-protocolo-http',
             'http-y-sinatra/rutas',
