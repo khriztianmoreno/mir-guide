@@ -25,9 +25,7 @@ Los **SGBD no relacionales** \(también conocidas como **NoSQL**\) modelan la in
 
 Para MongoDB se recomiendan los siguientes temas:
 
-* [JavaScript I](../javascript-i/)
-* [JavaScript II](../javascript-ii/)
-* [jQuery](../jquery/)
+* [JavaScript](../javascript/)
 
 ## Contenido
 

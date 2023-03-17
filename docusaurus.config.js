@@ -88,7 +88,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentación',
+            label: 'Lineamientos',
           },
           {
             type: 'doc',
@@ -112,8 +112,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Guías',
+                label: 'Lineamientos',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Guías',
+                to: '/guides/intro',
               },
             ],
           },
