@@ -1,8 +1,0 @@
-{
-  "label": "Git",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Git es un sistema de control de versiones distribuido, creado por Linus Torvalds en 2005."
-  }
-}

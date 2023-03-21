@@ -58,19 +58,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'guides',
-        path: 'guides',
-        routeBasePath: 'guides',
-        breadcrumbs: true,
-        sidebarPath: require.resolve('./sidebarsGuides.js'),
-        // ... other options
-      },
-    ],
-  ],
+  plugins: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -86,13 +74,6 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Lineamientos',
-          },
-          {
-            type: 'doc',
-            docsPluginId: 'guides',
             docId: 'intro',
             position: 'left',
             label: 'Guías',
@@ -114,10 +95,6 @@ const config = {
               {
                 label: 'Lineamientos',
                 to: '/docs/intro',
-              },
-              {
-                label: 'Guías',
-                to: '/guides/intro',
               },
             ],
           },
