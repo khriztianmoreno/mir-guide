@@ -24,9 +24,9 @@ Como sabemos que no todos tienen la posibilidad de usar WSL 2, hemos preparado u
 Para instalar el emulador de terminal, sigue los siguientes pasos:
 
 1. Descarga [Cmder](https://cmder.app/) la versión `Full`(with Git for Windows)
-2. Descomprime la carpeta, te recomendamos que la descomprimas en `C:\` para que sea más fácil de encontrar. __Nota__: Esta ruta no debe ser `C:\Archivos de programa` o `C:\Program Files` ni ningún otro lugar que requiera acceso de administrador para modificar los archivos de configuración.
+2. Descomprime la carpeta, te recomendamos que la descomprimas en `C:\` para que sea más fácil de encontrar. *__Nota__: Esta ruta no debe ser `C:\Archivos de programa` o `C:\Program Files` ni ningún otro lugar que requiera acceso de administrador para modificar los archivos de configuración.*
 3. (opcional) Coloca tus propios archivos ejecutables en la carpeta `%cmder_root%\bin` para inyectarlos en su `PATH`.
-4.. Abre el archivo `Cmder.exe` y espera a que se abra la terminal.
+4. Abre el archivo `Cmder.exe` y espera a que se abra la terminal.
 
 ### Alternativa 2: Usar una máquina virtual con Linux
 
