@@ -44,13 +44,6 @@ const config = {
           editUrl:
             'https://github.com/khriztianmoreno/mir-guide/tree/main/',
         },
-        guides: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/khriztianmoreno/mir-guide/tree/main/',
-        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -166,12 +159,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        // The application ID provided by Algolia
         appId: process.env.ALGOLIA_APP_ID,
-
-        // Public API key: it is safe to commit it
         apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
-
         indexName: process.env.ALGOLIA_INDEX_NAME,
 
         // Optional: see doc section below
